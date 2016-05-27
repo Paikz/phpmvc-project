@@ -1,0 +1,18 @@
+/*
+ * Regions demo settings
+ *
+ * Set min-height and background color to highlight the regions
+ */
+
+#flash,
+#main, #sidebar,
+#featured-1, #featured-2, #featured-3,
+#triptych-1, #triptych-2, #triptych-3,
+#footer-1, #footer-2, #footer-3, #footer-4 {
+    min-height: 5em;
+    background-color: grey;
+}
+
+#wrapper {
+  background-image: url(grid_12_60_20.png);
+}

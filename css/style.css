@@ -1,0 +1,162 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+@font-face {
+    font-family: myriad;
+    src: url("fonts/Myriad-Pro-Bold.ttf");
+}
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+
+/**
+ * Layout for header
+ */
+
+.sitetitle {
+  font-size: 48px;
+  font-family: myriad, sans-serif;
+}
+
+.siteslogan {
+  font-style: italic;
+  color: #666;
+  margin-left: 350px;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 960px;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 700px;
+}
+
+.article1 h1,
+.article1 h2 {
+  font-family: myriad, sans-serif;
+}
+
+.byline {
+  width: 720px;
+  height: 60px;
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+.byline-picture{
+  float: left;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+}
+
+.byline-text{
+  float: left;
+  display: block;
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+/**
+ * For comments
+ */
+
+ .comment {
+   margin-left: 105px;
+ }
+
+ .comment-form {
+   clear: both;
+   margin-bottom: 15px;
+ }
+
+ .comment-name {
+   color: #FF6C65;
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+ .comment-avatar {
+   float: left;
+   display: inline;
+ }
+
+ .comment-content {
+
+ }
+
+ .button-remove {
+   border: 0;
+   background-color: white;
+   padding: 0;
+   cursor: pointer;
+   display: inline;
+ }
+
+ .button-edit {
+   border: 0;
+   background-color: white;
+   padding: 0;
+   cursor: pointer;
+   display: inline;
+ }

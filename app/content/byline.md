@@ -1,0 +1,1 @@
+Philip Esmailzade studerar för tillfället Webbprogrammering på Blekinge Tekniska Högskola och kan lättast nås via [Facebook](https://www.facebook.com/philip.esmailzadeh) eller [Twitter](https://twitter.com/Paikzz).

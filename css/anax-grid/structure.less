@@ -1,0 +1,179 @@
+body {
+  overflow-y: scroll;
+  font-family: arial, sans-serif;
+  background-image: url('../../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFF7;
+}
+
+@font-face {
+    font-family: myriad;
+    src: url("../fonts/Myriad-Pro-Bold.ttf");
+}
+
+@font-face {
+    font-family: optimus;
+    src: url("../fonts/OptimusPrincepsSemiBold.ttf");
+}
+
+@font-face {
+    font-family: optimus;
+    src: url("../fonts/OptimusPrincepsSemiBold.ttf");
+}
+
+@font-face {
+    font-family: marcellus;
+    src: url("../fonts/MarcellusSC.ttf");
+}
+
+.myriad {
+  font-family: myriad, sans-serif;
+}
+
+.marcellus {
+  font-family: marcellus, sans-serif;
+    color: #E1D0B6;
+}
+
+.clearBoth {
+  clear: both;
+}
+.cleanLink {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #FFFFF7;
+}
+.cleanLink:hover {
+  color: gray;
+}
+.cleanLink:active {
+  color: #FFFFF7;
+}
+
+
+/**
+ * Wrapper for all regions
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 960px;
+  padding: 10px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #141414;
+}
+
+#wrap-featured,
+#wrap-main,
+#wrap-triptych,
+#wrap-footer-col {
+    .clearfix();
+    background-color: #141414;
+}
+
+#header,
+#navbar,
+#flash,
+#footer {
+    .column(@columns);
+    background-color: #141414;
+}
+
+#footer {
+  margin: 0;
+  width: 960px;
+}
+
+#flash {
+  margin-bottom: 22px;
+}
+
+#main {
+    .column(@columns / 3 * 2);
+    margin-bottom: 22px;
+}
+
+#sidebar {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+}
+
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+    .column(@columns / 3);
+    margin-bottom: 22px;
+}
+
+#footer-1,
+#footer-2,
+#footer-3,
+#footer-4 {
+    .column(@columns / 4);
+    margin-bottom: 22px;
+}
+
+#wrap-featured,
+#wrap-main,
+#wrap-triptych,
+#wrap-footer-col {
+    .clearfix();
+}
+
+/**
+ * Layout for header
+ */
+
+.sitetitle {
+  font-size: 48px;
+  font-family: optimus, sans-serif;
+  color: #E1D0B6;
+}
+
+.siteslogan {
+  font-style: italic;
+  color: #666;
+  margin-left: 80px;
+}
+
+/**
+ * Layout for footer
+ */
+#footer {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.sitefooter {
+  color: #666;
+  margin-left: 5px;
+}
+
+/**
+ * For comments
+ */
+
+
+ /**
+  * For userpage
+  */
+
+
+/**
+ * For tags
+ */
+ .tag {
+   display: inline-block;
+   border: 2px solid #FFFFF7;
+   padding: 5px;
+   border-radius: 4px;
+   margin: 3px;
+ }
