@@ -22,15 +22,17 @@ Next you will have to change some things in the files.
 3. The last step is to setup your database with all the required tables.
    Go into the index home page on the website and enter:
 
-  ```/Questions/setup```
+  ```
+  /Questions/setup
 
-  ```/Answers/setup```
+  /Answers/setup
   
-  ```/Tags/setup```
+  /Tags/setup
+ 
+  /QuestionTags/setup
   
-  ```/QuestionTags/setup```
-  
-  ```/Users/setup```
+  /Users/setup
+  ```
   
   
 ##License
